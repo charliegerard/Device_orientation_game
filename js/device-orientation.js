@@ -14,8 +14,8 @@ $(document).ready(function(){
 	var drawHole = function(){
 		//Draw a new whole randomly between the borders of the platform.
 		$('#hole').css({
-			left: randomNumber(platformLeft, platformRight - 100) + 'px',
-			top: randomNumber(platformTop, platformBottom - 100) + 'px'
+			left: randomNumber(platformLeft, platformRight - 110) + 'px',
+			top: randomNumber(platformTop, platformBottom - 110) + 'px'
 		})
 	}
 
